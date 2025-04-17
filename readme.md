@@ -2,6 +2,10 @@
 
 A simple web-based salary conversion tool that helps you calculate equivalent salary values across different time frames — hourly, daily, weekly, semi-monthly, monthly, quarterly, and annually — based on your selected rate and work schedule.
 
+## Live Demo
+check the live demo:https://mhmd-aho.github.io/salary-cal/
+
+
 ## 🚀 Features
 
 - Choose your salary input type: **Hourly**, **Daily**, **Weekly**, or **Monthly**
