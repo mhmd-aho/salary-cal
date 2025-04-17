@@ -1,0 +1,142 @@
+@font-face {
+    font-family: switzer;
+    src: url(Switzer-Medium.otf);
+}
+body{
+    margin: 0;
+    font-family: switzer;
+}
+header{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+main{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    background: linear-gradient( rgba(146, 146, 146, 0.4) );
+}
+.inputs,select{
+    width: 67px;
+    height: 30px;
+    padding: 0;
+    font-size: large;
+
+}
+#inputSection{
+    height: 90%;
+    width: 30%;
+    background-color: rgba(146, 146, 146, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius:20px ;
+    border-bottom-left-radius: 20px;
+}
+#outputSection{
+    height: 90%;
+    width: 30%;
+    background-color:chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+form{
+    height: 50%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#div1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#div1>div{
+    display: flex;
+    justify-content: space-evenly;
+}
+#div2{
+    display: flex;
+    justify-content: space-around;
+}
+#labelFlex,#inputFlex{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#div3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#submit{
+    background-color:chartreuse;
+    border: 0;
+    height: 3em;
+    width: 6em;
+    font-size: large;
+    font-family: switzer;
+}
+#clear{
+    background-color: gray;
+    border: 0;
+    height: 3em;
+    width: 3em;
+    font-size: large;
+    font-family: switzer;
+}
+table{
+    height: 80%;
+    width: 90%;
+    border: 1px solid black;
+    background-color: black;
+}
+tr,td{
+    border: 1px solid black;
+    background-color:chartreuse ;
+    font-size: 0.9em;
+}
+th{
+    border: 1px solid black;
+    background-color: rgb(70, 138, 2);
+    font-size: 0.9em;
+}
+@media screen and (max-width:920px) {
+    main{
+        height: 200vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;
+    }
+    #inputSection{
+        height: 40%;
+        width: 60%;
+        background-color: rgba(146, 146, 146, 0.4);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius:20px 20px 0 0;
+    }
+    #outputSection{
+        height: 40%;
+        width: 60%;
+        background-color:chartreuse;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius:0 0 20px 20px;
+    }
+}
